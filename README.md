@@ -17,6 +17,11 @@ Changes in this fork include:
 
 For compatibility, we will not make any API changes or non-bug behavior changes to the existing APIs of the official cocoapi.
 
+## Installation from source
+```
+pip install git+https://github.com/Ghelman-A/pycocotools.git#subdirectory=PythonAPI
+```
+
 ## Instructions for maintainers: to build a sdist package:
 ```
 python -m build --sdist ./PythonAPI
